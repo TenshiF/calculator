@@ -28,12 +28,11 @@ body {
     background-color: lightslategray;
     color: black;
     font-weight: 900;
-    margin-left: 295px;
     margin-top: 50px;
     gap: 10px;
 }
 
-.button {
+.button, .number-button, .operator-button, .equal-button, .clear-button {
     display: flex;
     font-size: 50px;
     height: 75px;
@@ -46,13 +45,17 @@ body {
 
 .buttons {
     display: flex;
+    gap: 20px;
 }
 
 .numbers {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
 }
 
 .number-row {
     display: flex;
+    gap: 10px;
 }
